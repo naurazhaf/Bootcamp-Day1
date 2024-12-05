@@ -1,0 +1,52 @@
+body{
+    background-color: #ADD8E6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    text-align: center;
+}
+
+.rows{
+    justify-content: center;
+}
+.dropdown{
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+}
+
+#cardparent2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.card2{
+    background-color: white;
+    text-align: center;
+    padding: 60px 40px 60px 40px;
+    width: 200px;
+    font-size: large;
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 0px 2px 5px rgb(131, 128, 128);
+}
+
+.card2:hover {
+ scale: 1.1;  
+ transition: 0.5;
+  }
+
+.card2 .produk-title{
+    font: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+
+
+
