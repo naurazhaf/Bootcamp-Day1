@@ -1,34 +1,39 @@
 body {
-    background-color: white;
+    background-color: #81BFDA;
     font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
 
 /* PORTOFOLIO*/
 
 .flyer{
     display: flex;
-    justify-content: space-between;
-    padding: 5px 20px 5px 30px;
-    justify-content:space-between;
-    margin: 80px
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100vh;
+    padding: 0px 80px 0px 80px;
 }
 
 .name-desc{
     margin-right: 100px;
 }
 
-.name-desc .h2{
-    font-size: 90px;
+.judul-nama{
+    font-size:60px;
+}
+
+.self-desc{
+    font-size: 30px;
 }
 
 .photo{
-    border-radius: 50%; 
+    border-radius: 50%;
+    width: 40vh; 
 }
 
 /* button */
 .button-1 {
   align-items: center;
+  margin-top: 100px;
   background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: .25rem;
@@ -73,30 +78,50 @@ body {
   transform: translateY(0);
 }
 
-.work-card{
+ 
+.experience{
+    padding: 0px 100px 0px 100px;
+    height: 100vh;
+    
+}
+
+.heading3{
+    align-items: center;
+    justify-content: center;
+}
+
+.cardparent1{
     display: flex;
     justify-content: space-between;
-    justify-content:flex-start;
+}
+
+.work-card{
+    background-color: #B1F0F7;
+    text-align: center;
+    padding: 60px 40px 60px 40px;
+    width: 200px;
+    font-size: large;
+    border-radius: 20px;
+    margin: 50px 0 50px 0;
+    box-shadow: 0px 2px 5px rgb(131, 128, 128);
 }
 
 .work-photo{
     border-radius: 10%; 
-
+    width:  100px;
 }
-
-
-
-
 
 
 /* card-BSI */
 
 .card-BSI {
     background-color: #ADD8E6;
+    height: 100vh;
 }
 
 .header {
     text-align: center;
+    padding-top: 2cm;
 }
 
 .rows {
